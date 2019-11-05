@@ -1,0 +1,87 @@
+body {
+    color: #777777;
+    background-image: url("../images/triangle-mosaic.png");
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+nav {
+    float: right;
+}
+
+p {
+    display: inline;
+}
+
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    
+    border-bottom: 2px solid #cccccc;
+
+}
+
+.headRow {
+    width: 960px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.logo {
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 2.5em;
+    max-width: 30%;
+    padding: 20px 10px;
+    
+}
+
+.contentDiv {
+    padding: 40px 20px 20px 20px;
+    background-color: #ffffff;
+    min-height: 100%;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid #dddddd;
+
+    margin-bottom: -50px;
+}
+
+.contentHeader {
+    color: #4aaaa5;
+    font-size: 2em;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;   
+    text-align: center;
+    padding-top: 20px;
+}
+
+#aboutMePic {
+    width: 150px;
+    display: inline-block;
+}
